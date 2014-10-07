@@ -45,11 +45,11 @@ Type TAsteroidsGame Extends TGame
 		InitializeGraphics( 800, 600, G_RESX, G_RESY )
 
 		'set up some controls
-		AddKeyControl( TKeyControl.Create("TURN LEFT", KEY_LEFT) )
-		AddKeyControl( TKeyControl.Create("TURN RIGHT", KEY_RIGHT) )
-		AddKeyControl( TKeyControl.Create("THRUST", KEY_UP) )
-		AddKeyControl( TKeyControl.Create("TELEPORT", KEY_DOWN) )
-		AddKeyControl( TKeyControl.Create("SHOOT", KEY_A) )
+		AddKeyControl( "TURN LEFT", KEY_LEFT )
+		AddKeyControl( "TURN RIGHT", KEY_RIGHT )
+		AddKeyControl( "THRUST", KEY_UP )
+		AddKeyControl( "TELEPORT", KEY_DOWN )
+		AddKeyControl( "SHOOT", KEY_A )
 
 		'reset the render state
 		TRenderState.Reset()
