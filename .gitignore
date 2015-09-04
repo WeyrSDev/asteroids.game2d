@@ -45,7 +45,4 @@ Temporary Items
 *.s
 *.o
 *.exe
-*.sublime-project
-*.sublime-workspace
-*.gradle
 *.ini
